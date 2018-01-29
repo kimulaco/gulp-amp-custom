@@ -1,34 +1,22 @@
 @charset "UTF-8";
-
 body {
   font-size: 16px;
 }
-
 @page {
   margin: 15mm;
 }
-
 @page hoge {
   size: portrait;
   margin: 15mm;
 }
-
 a {
   color: #39c !important;
   text-decoration: none;
 }
-
 @viewport {
   min-width: 640px;
   max-width: 800px;
 }
-
-@document url-prefix(https) {
-  body {
-    background: #ccc;
-  }
-}
-
 @supports not (display: flex) {
   .flexbox {
     overflow: hidden;

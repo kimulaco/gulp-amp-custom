@@ -3,6 +3,8 @@ const ampCustom = require('gulp-amp-custom');
 
 gulp.task('test', () => {
     gulp.src('./src/test.css')
-        .pipe(ampCustom())
+        .pipe(ampCustom({
+            enableByteLimit: true
+        }))
         .pipe(gulp.dest('./dist/'));
 });
