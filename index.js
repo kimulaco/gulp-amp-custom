@@ -21,7 +21,7 @@ module.exports = (options) => {
             options.enableByteLimit &&
             ampCustom.isOverMaxByte(cssSource)
         ) {
-            this.emit('error', new PluginError(PLUGIN_NAME, 'The capacity of the CSS source is 50 KB or more.'));
+            this.emit('error', new PluginError(PLUGIN_NAME, 'AMP stylesheet exceeds the 50,000 btyes limit.'));
         }
 
         file.contents = Buffer.from(cssSource);
