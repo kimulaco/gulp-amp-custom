@@ -16,12 +16,12 @@
     "type": "git",
     "url": "https://github.com/kmrk/gulp-amp-custom.git"
   },
-  "main": "index.js",
+  "main": "gulp-amp-custom.js",
   "scripts": {
-    "test": "cd test && gulp test"
+    "test": "cd __test__ && gulp test"
   },
   "dependencies": {
-    "amp-custom": "^0.3.0",
+    "amp-custom": "^1.0.0",
     "gulp-util": "^3.0.8",
     "through2": "^2.0.3"
   },
