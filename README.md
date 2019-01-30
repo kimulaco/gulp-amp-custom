@@ -4,7 +4,7 @@ Gulp plugin to optimize CSS source for AMP HTML.
 
 ## Install
 
-```
+```shell
 npm install --save-dev gulp-amp-custom
 ```
 
@@ -15,7 +15,7 @@ const gulp = require('gulp');
 const ampCustom = require('gulp-amp-custom');
 
 gulp.task('test', () => {
-    gulp.src('./src/test.css')
+    return gulp.src('./src/test.css')
         .pipe(ampCustom({
             enableByteLimit: true
         }))
