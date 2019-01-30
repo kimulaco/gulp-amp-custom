@@ -4,7 +4,8 @@ module.exports = (options) => {
     const PLUGIN_NAME = 'gulp-amp-custom';
     const through = require('through2');
     const PluginError = require('gulp-util').PluginError;
-    const ampCustom = require('amp-custom');
+    const AmpCustom = require('amp-custom');
+    const ampCustom = new AmpCustom();
 
     options = Object.assign({
         enableByteLimit: false
