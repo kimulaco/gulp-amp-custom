@@ -1,7 +1,7 @@
 {
   "name": "gulp-amp-custom",
-  "version": "1.1.0",
-  "author": "kmrk",
+  "version": "1.1.1",
+  "author": "kimulaco",
   "license": "MIT",
   "description": "Gulp plugin to optimize CSS source for AMP HTML.",
   "keywords": [
@@ -11,10 +11,10 @@
     "AMP HTML",
     "Accelerated Mobile Pages"
   ],
-  "homepage": "https://github.com/kmrk/gulp-amp-custom",
+  "homepage": "https://github.com/kimulaco/gulp-amp-custom",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kmrk/gulp-amp-custom.git"
+    "url": "https://github.com/kimulaco/gulp-amp-custom.git"
   },
   "main": "gulp-amp-custom.js",
   "scripts": {
