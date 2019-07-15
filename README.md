@@ -28,7 +28,6 @@ gulp.task('test', () => {
 
 ```css
 /* ./src/test.css */
-
 @charset "UTF-8";
 body {
   font-size: 16px;
@@ -56,16 +55,20 @@ a {
     float: left;
   }
 }
+```
 
-
+```css
 /* ./dist/test.css */
-
 body{font-size:16px}a{color:#39c;text-decoration:none}
 ```
 
 ## Options
 
-- enableByteLimit `Boolean` - If the CSS source exceeds 50 KB, it issues an error.(Default: `false`)
+### enableByteLimit
+
+Type: `Boolean`
+
+If the CSS source exceeds 50 KB, it issues an error.(Default: `false`)
 
 ## License
 [MIT License](LICENSE).
