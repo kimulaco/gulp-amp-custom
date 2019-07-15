@@ -1,6 +1,6 @@
 {
   "name": "gulp-amp-custom",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "author": "kimulaco",
   "license": "MIT",
   "description": "Gulp plugin to optimize CSS source for AMP HTML.",
@@ -18,14 +18,21 @@
   },
   "main": "gulp-amp-custom.js",
   "scripts": {
-    "test": "cd __test__ && gulp test"
+    "lint": "eslint **/*.js -c .eslintrc.js",
+    "example": "cd example && gulp test"
   },
   "dependencies": {
-    "amp-custom": "^1.2.2",
+    "amp-custom": "^1.2.3",
     "gulp-util": "^3.0.8",
     "through2": "^3.0.1"
   },
   "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^13.0.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
     "gulp": "^4.0.2"
   }
 }
