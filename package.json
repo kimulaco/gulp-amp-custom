@@ -1,6 +1,6 @@
 {
   "name": "gulp-amp-custom",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "author": "kimulaco",
   "license": "MIT",
   "description": "Gulp plugin to optimize CSS source for AMP HTML.",
@@ -18,10 +18,10 @@
   },
   "main": "gulp-amp-custom.js",
   "scripts": {
-    "test": "cd __test__ && gulp test"
+    "test": "cd example && gulp test"
   },
   "dependencies": {
-    "amp-custom": "^1.2.2",
+    "amp-custom": "^1.2.3",
     "gulp-util": "^3.0.8",
     "through2": "^3.0.1"
   },
