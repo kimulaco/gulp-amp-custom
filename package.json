@@ -22,7 +22,7 @@
     "example": "cd example && gulp test"
   },
   "dependencies": {
-    "amp-custom": "^1.2.3",
+    "amp-custom": "^1.2.4",
     "gulp-util": "^3.0.8",
     "through2": "^3.0.1"
   },

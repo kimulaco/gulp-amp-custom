@@ -5,6 +5,8 @@
 
 Gulp plugin to optimize CSS source for AMP HTML.
 
+[amp-custom](https://github.com/kimulaco/amp-custom) is the core library.
+
 ## Install
 
 ```shell
