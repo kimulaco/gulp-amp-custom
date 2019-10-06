@@ -2,6 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![npm version](https://badge.fury.io/js/gulp-amp-custom.svg)](https://badge.fury.io/js/gulp-amp-custom)
+[![Build Status](https://travis-ci.org/kimulaco/gulp-amp-custom.svg?branch=master)](https://travis-ci.org/kimulaco/gulp-amp-custom)
 
 Gulp plugin to optimize CSS source for AMP HTML.
 
@@ -71,6 +72,11 @@ body{font-size:16px}a{color:#39c;text-decoration:none}
 Type: `Boolean`
 
 If the CSS source exceeds 50 KB, it issues an error.(Default: `false`)
+
+## Plugins
+
+- [amp-custom](https://github.com/kimulaco/amp-custom)
+- [postcss-amp-custom](https://github.com/kimulaco/postcss-amp-custom)
 
 ## License
 [MIT License](LICENSE).
