@@ -2,6 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![npm version](https://badge.fury.io/js/gulp-amp-custom.svg)](https://badge.fury.io/js/gulp-amp-custom)
+[![Build Status](https://travis-ci.org/kimulaco/gulp-amp-custom.svg?branch=master)](https://travis-ci.org/kimulaco/gulp-amp-custom)
 
 Gulp plugin to optimize CSS source for AMP HTML.
 
