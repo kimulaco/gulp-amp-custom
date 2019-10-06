@@ -19,7 +19,7 @@
   "main": "gulp-amp-custom.js",
   "scripts": {
     "lint": "eslint **/*.js -c .eslintrc.js",
-    "example": "cd example && gulp test"
+    "test": "jest --silent --verbose"
   },
   "dependencies": {
     "amp-custom": "^1.2.6",
@@ -27,12 +27,14 @@
     "through2": "^3.0.1"
   },
   "devDependencies": {
+    "del-cli": "^3.0.0",
     "eslint": "^6.5.1",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "jest": "^24.9.0"
   }
 }
