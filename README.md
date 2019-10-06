@@ -72,5 +72,10 @@ Type: `Boolean`
 
 If the CSS source exceeds 50 KB, it issues an error.(Default: `false`)
 
+## Plugins
+
+- [amp-custom](https://github.com/kimulaco/amp-custom)
+- [postcss-amp-custom](https://github.com/kimulaco/postcss-amp-custom)
+
 ## License
 [MIT License](LICENSE).
