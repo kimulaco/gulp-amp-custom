@@ -20,7 +20,7 @@ module.exports = (options) => {
       options.enableByteLimit &&
       ampCustom.isOverMaxByte(cssSource)
     ) {
-      this.emit('error', new PluginError(PLUGIN_NAME, 'AMP stylesheet exceeds the 50,000 btyes limit.'))
+      this.emit('error', new PluginError(PLUGIN_NAME, 'AMP stylesheet exceeds the 75,000 btyes limit.'))
     }
 
     file.contents = Buffer.from(cssSource)
