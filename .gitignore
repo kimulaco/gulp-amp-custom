@@ -1,7 +1,4 @@
-# file
-.npmignore
 .DS_Store
+.node-version
 npm-debug.log
-
-# directory
 node_modules
